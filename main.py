@@ -15,13 +15,13 @@ ftime = now.strftime("%H:%M:%S")
  
 session = requests.Session()
  
-token = (os.getenv("TOKEN"))
-prefix = (os.getenv("PREFIX"))
-stats = (os.getenv("STATS"))
-chan = (os.getenv("CHANS"))
-spamdata = (os.getenv("DATA"))
-rol = (os.getenv("ROL"))
-webname = (os.getenv("WEBHOOK"))
+token = os.environ['TOKEN']
+prefix = os.environ['PREFIX']
+stats = os.environ['STATS']
+chan = os.environ['CHANS']
+spamdata = os.environ['DATA']
+rol = os.environ['ROL']
+webname = os.environ['WEBHOOK']
 amountss = 1000
 intents = discord.Intents().all()
 intents.message_content = True
