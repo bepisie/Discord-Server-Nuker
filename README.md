@@ -1,7 +1,7 @@
 # A discord server bombing bot
-Made by bepisie 
+Made by bepisie.
 
-Feel free to use it
+Feel free to use it.
 
 # Setup
 
@@ -13,4 +13,4 @@ python main.py
 
 There you go!
 
-Also compatible w/ discloud
+Also compatible w/ discloud.
