@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 
 python main.py
 
-You can add your BOT TOKEN and WEBHOOK NAME in the .env file you can also adapt it to your container's secrets system.
+You can add your BOT TOKEN and WEBHOOK NAME in the .env file or, you can adapt it to your container's secrets system.
 
 There you go!
 
